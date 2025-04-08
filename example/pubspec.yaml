@@ -1,0 +1,22 @@
+name: example
+description: "Example of a project using DSFR Lints."
+version: 0.1.0
+publish_to: "none"
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dsfr:
+    git:
+      url: https://github.com/Octo-Open-Source/flutter-dsfr.git
+      ref: 0.2.0
+
+dev_dependencies:
+  custom_lint:
+  dsfr_lints:
+    path: ../
+  flutter_lints: ^5.0.0
